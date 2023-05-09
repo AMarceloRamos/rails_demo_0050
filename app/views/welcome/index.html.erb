@@ -1,0 +1,18 @@
+<h1>Welcome#index</h1>
+<p>Find me in app/views/welcome/index.html.erb</p>
+
+<h1>Indice de la página</h1>
+<p>Acabo de modificar el archivo
+app/views/pages/index.html.erb</p>
+<h2>Hola Mundo!!</h2>
+(c)Copyright <%= Time.now.year %>
+<% if Time.now.year >= 2018 %>
+ <p> Versión 2.0 </p>
+<% else %>
+ <p> versión 1.0 </p>
+<% end %>
+
+
+fecha actual<%= Time.now%>
+
+fecha formateada<%= Time.now.strftime("%d/%m/%Y %H:%M") %>
